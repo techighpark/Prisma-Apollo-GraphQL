@@ -33,7 +33,7 @@ don't need to use 'graphql-yoga' if you use 'apollo-server'
 
 ---
 
-## _**# 2.1 Prisma Migrate**_
+## _**# 3.0 Prisma Migrate**_
 
 ### _**schema.prisma**_
 
@@ -45,13 +45,13 @@ don't need to use 'graphql-yoga' if you use 'apollo-server'
 
 ---
 
-## _**# 2.2 Prisma Client**_
+## _**# 3.1 Prisma Client**_
 
 - @prisma/client
 
 ---
 
-## _**# 2.3 Prisma Studio**_
+## _**# 3.2 Prisma Studio**_
 
 ### _**$ npx prisma studio**_
 
