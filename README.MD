@@ -1,6 +1,8 @@
 don't need to use 'graphql-yoga' if you use 'apollo-server'  
 'graphql-yoga' run on Apollo Server
 
+---
+
 # _**# 1.0 Set Up(apollo, graphql, babel)**_
 
 - apollo-server
@@ -12,6 +14,8 @@ don't need to use 'graphql-yoga' if you use 'apollo-server'
 ### _**server.js**_
 
 : create server {ApolloServer}, {gql} from apollo-server
+
+---
 
 # _**# 2.0 Prisma**_
 
@@ -27,6 +31,8 @@ don't need to use 'graphql-yoga' if you use 'apollo-server'
 
 : DATABASE_URL
 
+---
+
 ## _**# 2.1 Prisma Migrate**_
 
 ### _**schema.prisma**_
@@ -36,3 +42,22 @@ don't need to use 'graphql-yoga' if you use 'apollo-server'
 ### _**$ npx prisma migrate dev --preview-feature**_
 
 : Generated Prisma Client
+
+---
+
+## _**# 2.2 Prisma Client**_
+
+- @prisma/client
+
+---
+
+## _**# 2.3 Prisma Studio**_
+
+### _**$ npx prisma studio**_
+
+---
+
+- graphql-tools
+  - @graphql-tools/merge
+  - @graphql-tools/schema
+- @graphql-tools/load-files

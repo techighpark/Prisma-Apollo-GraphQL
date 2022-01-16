@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/techighpark/instaclone_recap2#readme",
   "dependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
     "@prisma/client": "^3.8.1",
     "apollo-server": "^2.25.2",
     "apollo-server-core": "^3.6.1",
-    "graphql": "^15.8.0"
+    "graphql": "^15.8.0",
+    "graphql-tools": "^8.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
