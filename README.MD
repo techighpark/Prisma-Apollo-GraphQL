@@ -1,22 +1,24 @@
 don't need to use 'graphql-yoga' if you use 'apollo-server'  
 'graphql-yoga' run on Apollo Server
 
-## set up
+# _**# 1.0 Set Up**_
 
-> ##### npm i apollo-server
->
-> ##### npm i graphql
->
-> ##### npm i nodemon -D
->
-> ##### npm i @babel/{core,node,preset-env} -D
+- apollo-server
 
-### server.js
+- graphql
 
-> ###### https://github.com/apollographql/apollo-server
->
-> - create Apollo Server  
->   `import {ApolloServer}, {gql} from 'apollo-server'`
->
-> - landing page set up  
->   `import {ApolloServerPluginLandingPageGraphQLPlayground} from 'apollo-server-core'`
+- nodemon -D
+
+- @babel/{core,node,preset-env} -D
+
+### _# server.js_
+
+##### : create server {ApolloServer}, {gql} from apollo-server
+
+# _**# 2.0 Prisma**_
+
+- prisma -D
+
+### _# npx prisma init_
+
+##### : Your Prisma schema was created at prisma/schema.prisma
